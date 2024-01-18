@@ -12,7 +12,7 @@ const AddTask = () => {
         let title = e.target.title.value;
         let desc = e.target.desc.value;
      
-        const test = context.newTask({id: id, title: title, desc: desc});
+        context.newTask({id: id, title: title, desc: desc});
         context.handleFormOpen(false);
 
     }
